@@ -1,0 +1,30 @@
+#retangulo{
+    width: 320px;
+    height: 70px;
+    padding: 10px;
+    border: 2px solid #202121;
+    /*display: flex;*/
+
+
+
+}
+#container1{
+ display: flex1;
+ background-color: aquamarine;
+}
+#container2{
+    display: flex1;
+    background-color: aquamarine;
+
+
+}
+.dis{
+    display: inline-block;
+    margin-left: 20px;
+
+
+}
+
+#principal{
+    display: flex;
+}
