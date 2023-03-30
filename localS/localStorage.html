@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage - 1</title>
+</head>
+
+<body>
+    <h3>Web storage</h3>
+</body>
+<script src="script.js"></script>
+<script>
+    if (localStorage.visitas) {
+        localStorage.visitas = Number(localStorage.visitas) + 1;
+    } else {
+        localStorage.setItem("visitas", 1);
+    }
+    document.write("<br> Visita total: " + localStorage.visitas);
+
+</script>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RIA- Formularios</title>
+</head>
+<body>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Dados do cliente:</legend>
+            <label for="nome">Nome:</label>
+            <br>
+            <input type="text" name="nome" id="nome" placeholder="Digite um nome" required>
+            <br>
+
+            <label for="sobrenome">Sobrenome:</label>
+            <br>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+
+            <br>
+            <label for="cpf">CPF:</label>
+            <br>
+            <input type="number" name="cpf" id="cpf" title="digite o cpf" pattern="\d{3}.\d{3}.\d{3}-\{2}"required>
+            <br>
+
+            <label for="numDeDependentes">Num de dependentes:</label>
+            <br>
+            <input type="number" name="numDeDependentes" id="numDeDependentes" min="0" max="10" required>
+
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+
+            <br>
+            <label for="dataNasc">Data de nascimento:</label>
+            <br>
+            <input type="date" name="dataNasc" id="dataNasc">
+            <br>
+            <button>
+                enviar
+            </button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
