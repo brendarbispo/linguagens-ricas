@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SVG - Canvas</title>
+</head>
+<body>
+    <!--JANELA DO SVG -->
+    <svg width="500px" height="500px">
+
+        <!--CIRCULO-->
+        <circle cx="250" cy="250" r="50" fill="pink" stroke="black" stroke-width="1">
+        </circle>
+
+        <!--RETANGULO-->
+        <rect x="60" y="400" width="60" height="50" fill="blue" rx="10" fill-opacity="0.2">
+        </rect>
+
+        <!--CIRCULO-->
+        <ellipse cx="380" cy="400" rx="50" fill="green" stroke="black" stroke-width="3">
+        </ellipse>
+        
+        <!--TRIANGULO-->
+        <polygon points="173,183 319,183 246,50" stroke="black">
+        </polygon>
+        
+        <!--LOSANGO-->
+            <polygon points="200,200 300,350 400,200 300,50" fill="purple">
+            </polygon>
+
+        <!--HEXAGONO-->
+        <polygon points="90,15 150,15 190,75 90,135 50,75" fill="red">
+        </polygon>
+
+        <!--ESTRELA-->
+        <polygon points="38,166 16,266 76,188 5,188 60,236" fill="blue">
+        </polygon>
+
+        <!--DESENHAR LINHAS-->
+        <line x1="250" y1="450" x2="450" y2="450" stroke="blue" stroke-width="3"> 
+        </line>
+
+        <!--outras formad de DESENHAR LINHA-->
+        <polyline fill="none" stroke="black" stroke-width="3" points="50,100 450,100">
+        </polyline>
+
+        <!--outra forma de DESENHAR LINHA (sequencia)-->
+
+        <polyline fill="none" stroke="black" stroke-width="3" points="20,20 50,130 50,20 140,140 230,80"></polyline>
+
+
+    </svg>
+    
+
+</body>
+</html>
