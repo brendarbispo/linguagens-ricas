@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,57 +8,62 @@
     <link rel="stylesheet" href="style.css">
     <title>SVG - Canvas</title>
 </head>
+
 <body>
     <!--JANELA DO SVG -->
     <svg width="500px" height="500px">
 
+        <g transform="translate(-10,20) rotate(90,260,310)">
 
 
-        <!--rosto-->
-        <circle cx="260" cy="150" r="50" fill="pink" stroke="black" stroke-width="1">
-        </circle>
-        
-        <polygon class="triangulo" points="180,110 340,110 260,30" stroke="black">
-        </polygon>
+            <text x="310" y="180" font-family="Verdana" font-size="14" transform="rotate(-40,320,180)"> a mimir</text>
 
-        <circle cx="280" cy="130" r="8" fill="black" stroke="black" stroke-width="1">
-        </circle>
-        <circle cx="240" cy="130" r="8" fill="black" stroke="black" stroke-width="1">
-        </circle>
+            <!--rosto-->
+            <circle cx="260" cy="150" r="50" fill="pink" stroke="black" stroke-width="1">
+            </circle>
 
-        <line x1="260" y1="150" x2="260" y2="170" stroke="black" stroke-width="2"> 
-        </line>
+            <polygon class="triangulo" points="180,110 340,110 260,30" stroke="black">
+            </polygon>
 
-        <line x1="280" y1="178" x2="240" y2="178" stroke="purple" stroke-width="2"> 
-        </line>
+            <circle cx="280" cy="130" r="8" fill="black" stroke="black" stroke-width="1">
+            </circle>
+            <circle cx="240" cy="130" r="8" fill="black" stroke="black" stroke-width="1">
+            </circle>
 
-        <!--corpo-->
-        <rect x="170" y="230" width="180" height="180" fill="blue" rx="50" fill-opacity="0.4">
+            <line x1="260" y1="150" x2="260" y2="170" stroke="black" stroke-width="2">
+            </line>
+
+            <line x1="280" y1="178" x2="240" y2="178" stroke="purple" stroke-width="2">
+            </line>
+
+            <!--corpo-->
+            <rect x="170" y="230" width="180" height="180" fill="blue" rx="50" fill-opacity="0.4">
             </rect>
 
-            <line x1="260" y1="230" x2="260" y2="200" stroke="blue" stroke-width="7"> 
+            <line x1="260" y1="230" x2="260" y2="200" stroke="blue" stroke-width="7">
             </line>
 
             <polygon points="200,310 260,370 320,310 260,250" fill="purple">
             </polygon>
 
-            <line x1="430" y1="340" x2="340" y2="250" stroke="purple" stroke-width="4"> 
+            <line x1="430" y1="340" x2="340" y2="250" stroke="purple" stroke-width="4">
             </line>
 
-            <line x1="80" y1="340" x2="180" y2="250" stroke="purple" stroke-width="4"> 
+            <line x1="80" y1="340" x2="180" y2="250" stroke="purple" stroke-width="4">
             </line>
 
-            <line x1="300" y1="480" x2="300" y2="410" stroke="purple" stroke-width="8"> 
+            <line x1="300" y1="480" x2="300" y2="410" stroke="purple" stroke-width="8">
             </line>
 
-            <line x1="220" y1="480" x2="220" y2="410" stroke="purple" stroke-width="8"> 
+            <line x1="220" y1="480" x2="220" y2="410" stroke="purple" stroke-width="8">
             </line>
-            
-    
 
+
+        </g>
 
     </svg>
-    
+
 
 </body>
+
 </html>
